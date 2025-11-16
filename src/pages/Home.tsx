@@ -41,10 +41,7 @@ export default function Home() {
         <InfoTile label="Grandmother" value="Neeru" />
       </div>
 
-      {/* Note */}
-      <p className="text-xs text-slate-500">
-        Tip: To update the profile picture, place an image named <span className="font-semibold">baby.jpg</span> inside the <span className="font-semibold">public</span> folder.
-      </p>
+      
     </section>
   )
 }

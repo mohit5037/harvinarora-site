@@ -24,4 +24,11 @@ export type YouTubeLinkRow = {
   created_at: string
 }
 
+export type ExpenseRow = {
+  id: string
+  amount: number
+  name: string
+  created_at: string
+}
+
 

@@ -37,7 +37,10 @@ function App() {
             <Link className={linkBase + (isActive('/') ? active : inactive)} to="/">Home</Link>
             <Link className={linkBase + (isActive('/gallery') ? active : inactive)} to="/gallery">Gallery</Link>
             {isAdmin && (
-              <Link className={linkBase + (isActive('/settings') ? active : inactive)} to="/settings">Settings</Link>
+              <>
+                <Link className={linkBase + (isActive('/expenses') ? active : inactive)} to="/expenses">Expenses</Link>
+                <Link className={linkBase + (isActive('/settings') ? active : inactive)} to="/settings">Settings</Link>
+              </>
             )}
             {(isAdmin || isGuest) ? (
               <button

@@ -31,4 +31,11 @@ export type ExpenseRow = {
   created_at: string
 }
 
+export type ExtraBudgetRow = {
+  id: string
+  amount: number
+  note: string | null
+  created_at: string
+}
+
 
